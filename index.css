@@ -45,7 +45,7 @@ h3 img {
     display: block;
     font-style: oblique;
     font-size: 1vw;
-    width: 10%;
+    width: %;
     height: 100%;
     background: white;
     padding-top: 2%;
@@ -175,26 +175,24 @@ header {
 
 .butclick {
     height: 100%;
-    width: 17%;
-    float: top;
-    display: center;
+    width: 75%;
     text-align: 75px;
-    min-width: 165px;
-    max-height: 40px;
-    padding: 0;
     background: rgb(0, 0, 0);
     border: none;
     outline: rgb(0, 0, 0);
     border-radius: 50px;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 18px;
-    font-weight: 500;
+    font-size: 1vw;
+    font-weight: 200;
     cursor: pointer;
     color: rgb(255, 255, 255);
+    margin-bottom: 30%;
+    margin-right: 10%;
     transition: 1s;
     z-index: 100000;
-    letter-spacing: 2px
+    letter-spacing: 0.01vw
 }
+
 
 .butclick:hover {
 
