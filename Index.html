@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="index.css">
 
-    <title>Mikaeel Gamieldien resume </title>
+    <title>Mikaeel Gamieldien Resume </title>
 </head>
 
 <body>
@@ -16,19 +16,22 @@
             <img src="images/Images/660376.png" alt="Self_portrate" id="subMenu2" onclick="toggleMenu()">
             <section class="dire">
                 <a href="#ABT"><button type="button" class="butclick">
-                    <span class="butedu">ABOUT ME</span></button></a>
+                        <span class="butedu">ABOUT ME</span></button></a>
                 <a href="#EDU"><button type="button" class="butclick">
-                    <span class="butedu">EDUCATION</span></button></a>
-            <a href="#XP"><button type="button" class="butclick">
-                    <span class="butedu">EXPERIENCE</span></button></a>
-            <a href="#SKI"><button type="button" class="butclick">
-                    <span class="butedu">SKILLS</span></button></a>
-            <a href="#CON"><button type="button" class="butclick">
-                    <span class="butedu">CONTACT INFO</span></button></a>
-                    <a href="#TT"><button type="button" class="butclick">
+                        <span class="butedu">EDUCATION</span></button></a>
+                <a href="#XP"><button type="button" class="butclick">
+                        <span class="butedu">EXPERIENCE</span></button></a>
+                <a href="#SKI"><button type="button" class="butclick">
+                        <span class="butedu">SKILLS</span></button></a>
+                <a href="#CON"><button type="button" class="butclick">
+                        <span class="butedu">CONTACT INFO</span></button></a>
+                <a href="#TT"><button type="button" class="butclick">
                         <span class="butedu">Back Up ↑</span></button></a>
-                    
+
+             
+
             </section>
+            
         </nav>
     </h3>
     <header id="TT">
@@ -118,8 +121,141 @@
             <p>ONLINE</p>
             <p>January 10 2023 - March 29 2023</p>
         </section>
-    </main>
 
+        <section class="blocks_text">
+
+            <h1 id="XP">Employment History:</h1>
+
+            <h3>Part time Car Wash, A1 Car Wash</h3>
+
+            <h3>Cape-Town</h3>
+
+            <h3>April 2019-November 2019</h3>
+
+            <h3>I was one of the hands on cleaners of Cars,</h3>
+
+            <h3>even if I was tired I wanted to get the job done</h3>
+
+        </section>
+
+        <section class="asides">
+
+            <grid class="grids2">
+                <div class="grid-item2">
+                    <aside class="asides">
+
+
+
+                        <h2 id="SKI">SKILLS:</h2>
+                        <li>Effective Time Management</li>
+                        <li>Fast Learner</li>
+                        <li>Computer Skills</li>
+                        <li>Information Technology</li>
+                        <li>Engineering Graphics and
+                            Design</li>
+                        <li>Delphi matric level Coding</li>
+                        <li>Python PCEP Coding
+                        </li>
+
+                    </aside>
+                </div>
+
+                <div class="grid-item2">
+                    <aside class="asides">
+                        <h2>hobbies:</h2>
+                        <li>Gym</li>
+                        <li>Coding</li>
+                        <li>Gaming</li>
+                        <li>Reading</li>
+                        <li>swimming</li>
+                        <li>Guitar and Bass</li>
+
+
+
+                    </aside>
+                </div>
+
+                <div class="griv-item2">
+                    <aside class="asides">
+                        <h2>Intrests:</h2>
+                        <li>Ancient and Modern weapons</li>
+                        <li>Mythology</li>
+                        <li>History</li>
+                        <li>Travel</li>
+                        <li>Programming</li>
+                    </aside>
+                </div>
+
+
+
+
+
+
+
+
+
+
+
+
+        </section>
+
+
+
+
+
+
+    </main>
+    <h2 id="CON"></h2>
+    <footer class="oppback">
+        <H1>Contact:</H1>
+        <grid class="fGrid">
+
+            <div>
+                <h3><a href="https://www.credly.com/users/mikaeel-gamieldien"><img
+                            src="images/Images/7bcdcb0dd45c3e39ef8a2819340a3c9367025525.png"></a></H3>
+            </div>
+
+            <div>
+                <H3 class="spa"><a href="https://www.linkedin.com/in/mikaeel-gamieldien-352903275/"><img
+                            src="images/Images/LinkedIn_Logo.svg.png"></a></H3>
+            </div>
+            <div>
+                <H3><a href="https://github.com/K0BraKhan33"><img src="images/Images/GitHub-Emblem.png"></a></H3>
+            </div>
+        </grid>
+
+
+        <p>Email me directly:</p>
+        <p>mikaeel.gamieldien@gmail.com or:</p>
+
+
+        <form action="https://formsubmit.co/mikaeel.gamieldien@gmail.com" method="POST">
+
+            <input type="email" name="email" id="" placeholder="Your Email" required>
+
+            <br>
+
+            <select name="_subjects" id="subject">
+
+                <option value="Website Complaint">Website Complaint</option>
+                <option value="Interview Oppotunity">Interview Oppotunity</option>
+                <option value="Recruiter">Recruiter</option>
+
+            </select>
+
+            <br>
+
+
+            <textarea name="message" id="text" cols="30" rows="10" required></textarea>
+
+            <br>
+
+            <input class="submit" type="submit" value="Send">
+
+        </form>
+
+        </div>
+    </footer>
 
     <script>
         let subMenu = document.getElementById("subMenu");
@@ -130,7 +266,7 @@
             function closeMenu() {
                 subMenu.classList.remove("openMenu");
                 subMenu2.classList.remove("openMenu2");
-                
+
                 b = true;
                 console.log(b);
             }
