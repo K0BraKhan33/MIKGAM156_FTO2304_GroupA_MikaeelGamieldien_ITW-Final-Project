@@ -17,10 +17,72 @@ body {
 
 }
 
+.blox {
+    display: block;
+    color: #697c7a;
 
+
+}
+
+.dropdown {
+    position: relative;
+    z-index: 100000;
+    display: inline-block;
+    font-size: 0vw;
+    width: 10%;
+
+    position: absolute;
+    padding-left: 0%;
+    margin-left: 0%;
+    opacity: 100%;
+    position: fixed;
+    z-index: 100000;
+    transition: 1s;
+}
+
+.dropdown-content {
+    position: fixed;
+    z-index: 100000;
+    transition: 1s;
+}
+
+.dropdown-content .mainA {
+    padding-top: 40%;
+    padding-left: 15%;
+
+    display: block;
+    background-color: #0b1f1d67;
+}
+
+.dropdown-content .mainA a {
+    display: block;
+    transition: 1s;
+}
+
+.hide {
+
+    display: none;
+    opacity: 0%;
+    transition: 1s;
+
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    opacity: 100%;
+    transition: 1s;
+
+}
+
+.dropdown:hover img {
+    cursor: pointer;
+    display: absolute;
+    opacity: 0%;
+
+}
 
 .butclick {
-    width: 4%;
+    width: 20%;
     height: auto;
     background-color: rgb(109, 76, 76);
 }
@@ -86,6 +148,7 @@ header h1 {
     height: 100%;
 }
 
+
 .menus {
     background: #29353436;
     margin-left: 2%;
@@ -107,6 +170,23 @@ header h1 {
     float: left;
     border-radius: 50%;
     padding: 0%;
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        font-size: 2vw;
+        /* Increase font size for better readability on mobile */
+    }
+
+    .about {
+        font-size: 2vw;
+    }
+
+    .blocks_text {
+        font-size: 2vw;
+    }
+
+
 }
 
 .dire {
@@ -216,6 +296,21 @@ footer img {
     padding-left: 37%;
     padding-right: 30%;
     grid-template-columns: 20% 40% 25%;
+}
+
+.GGrid {
+    padding-top: 1%;
+    padding-bottom: 0%;
+    display: grid;
+    float: center;
+    text-align: center;
+    grid-template-columns: 1% 1% 1%;
+}
+
+.bloko {
+
+    height: 10%;
+    width: 10%%;
 }
 
 .extraInfo {
