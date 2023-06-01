@@ -46,7 +46,7 @@ h3 img {
     display: block;
     font-style: oblique;
     font-size: 1vw;
-    width: %;
+    width: 10%;
     height: 100%;
     background: white;
     padding-top: 2%;
@@ -70,7 +70,7 @@ header h1 {
 }
 
 .imgies {
-    padding-top: ;
+    padding-top:    ;
     padding-left: 10%;
     width: 110%;
     height: 100%;
