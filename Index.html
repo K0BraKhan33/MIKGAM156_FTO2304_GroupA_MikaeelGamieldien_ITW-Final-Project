@@ -268,15 +268,16 @@
         <form action="https://formsubmit.co/mikaeel.gamieldien@gmail.com" method="POST">
             <input type="email" name="email" id="" placeholder="Your Email" required>
             <br>
-            <select name="_subjects" id="subject">
-                <option value="Website Complaint">Website Complaint</option>
-                <option value="Interview Opportunity">Interview Opportunity</option>
-                <option value="Recruiter">Recruiter</option>
+            <label for="subject"></label>
+            <select name="subject" id="subject" required>
+              <option value="Website Complaint">Website Complaint</option>
+              <option value="Interview Opportunity">Interview Opportunity</option>
+              <option value="Recruiter">Recruiter</option>
             </select>
             <br>
             <textarea name="message" id="text" cols="30" rows="10" required></textarea>
             <br>
-            <input class="submit" type="submit" value="Send">
+            <input class="submit" type="submit" value="Send" target="_blank">
         </form>
     </footer>
 
