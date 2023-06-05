@@ -1,12 +1,15 @@
+/* Body */
 body {
+    display: block;
+    width: 100%;
     background-color: rgb(196, 196, 196);
     color: white;
     font-family: "Times New Roman", Times, serif;
     font-size: 1vw;
-    
+
 }
 
-
+/* LOGO */
 .selfs {
     width: 7%;
     height: auto;
@@ -21,14 +24,50 @@ body {
 
 }
 
-.blox {
-    display: block;
-    color: #697c7a;
-    
+.selfs2 {
+    display: none;
+    width: 7%;
+    height: auto;
+    float: right;
+    border-radius: 100%;
+    margin-right: 1%;
+    margin-top: 0%;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(40, 71, 207);
+    opacity: 0%;
 
 
 }
 
+.conlinlk {
+    display: block;
+}
+
+.conlinlk:hover .selfs {
+    display: none;
+    opacity: 0%;
+    transition: 1;
+}
+
+.conlinlk:hover .selfs2 {
+
+    display: block;
+    opacity: 100%;
+    border-color: red;
+    transition: 1;
+}
+
+/* main DIRECTORY */
+.blox {
+    display: block;
+    color: #697c7a;
+
+
+
+}
+
+/* Dropdown */
 .dropdown {
     position: relative;
     z-index: 100000;
@@ -67,6 +106,7 @@ body {
     transition: 1s;
 }
 
+/* hidden dropdown */
 .hide {
 
     display: none;
@@ -99,6 +139,7 @@ body {
 
 }
 
+/* Buttons */
 .butclick {
     width: 20%;
     height: auto;
@@ -143,23 +184,28 @@ h3 img {
 
 }
 
+/* Main Headers */
 header h1 {
     text-align: center;
     padding-left: 8%;
 }
+
 header h2 {
     text-align: center;
 }
+
 header h3 {
     text-align: center;
 }
 
+/* Grid large */
 .grids {
     padding-top: 10%;
     display: grid;
-    grid-template-columns: 33% 33% 25%;
+    grid-template-columns: 30% 30% 25%;
 }
 
+/* IMG Grid Large  */
 .grids2 {
     padding-top: 1%;
     padding-bottom: 1%;
@@ -172,6 +218,7 @@ header h3 {
     padding-left: 26%
 }
 
+/* EDU IMGS */
 .imgies {
 
     padding-left: 10%;
@@ -179,7 +226,7 @@ header h3 {
     height: 100%;
 }
 
-
+/* menu buton */
 .menus {
     background: #293534d3;
     margin-left: 2%;
@@ -196,6 +243,7 @@ header h3 {
 
 }
 
+/* */
 .menus2 {
     width: 0%;
     height: auto;
@@ -205,10 +253,12 @@ header h3 {
     font-size: 1.5vw;
 }
 
+/* Grid small */
 .grids3 {
     display: none;
 }
 
+/* Direct Email */
 .dire {
     border-top: 200%;
     font-size: 2vw;
@@ -216,10 +266,10 @@ header h3 {
 
 }
 
-
+/* about secion */
 .about {
     margin-top: 3%;
-    padding-top: 10%;
+    padding-top: 8%;
 
     display: block;
     width: 100%;
@@ -227,12 +277,13 @@ header h3 {
     background: #697c7a;
     text-align: center;
     font-size: 1.5vw;
-    border-style:double;
+    border-style: double;
     border-width: 5px;
     border-color: rgb(33, 44, 51);
 
 }
 
+/* Main Info */
 .blocks_text {
     margin-top: 2%;
     padding-top: 2%;
@@ -245,11 +296,12 @@ header h3 {
     background: #697c7a;
     text-align: center;
     font-size: 1vw;
-    border-style:double;
+    border-style: double;
     border-width: 5px;
     border-color: rgb(33, 44, 51);
 }
 
+/* Main EXP */
 .blocks_exp {
     display: block;
     margin-top: 2%;
@@ -260,12 +312,13 @@ header h3 {
     text-align: center;
     font-size: 1.1vw;
     float: right;
-    border-style:double;
+    border-style: double;
     border-width: 5px;
     border-color: rgb(33, 44, 51);
 
 }
 
+/* SKILLS SECION */
 .asides {
     margin-top: 0%;
     padding-top: 0%;
@@ -276,10 +329,10 @@ header h3 {
     background: #697c7a;
     text-align: center;
     font-size: 1.5vw;
-    border-style:double;
+    border-style: double;
     border-width: 5px;
     border-color: rgb(33, 44, 51);
-   
+
 
 }
 
@@ -302,29 +355,31 @@ header h3 {
 
 
 
-
+/* FOOTER MAIN INFO */
 footer {
     font-size: 1vw;
     display: block;
-    margin-left: 1%;
+    margin-left: 0%;
     top: 15%;
     right: auto;
     text-align: center;
     color: #fff;
     background: #697c7a;
-    border-style:double;
+    border-style: double;
     border-width: 5px;
     border-color: rgb(33, 44, 51);
     margin-bottom: 1%;
 
 }
 
+/* F IMAGES */
 footer img {
     width: 80%;
     height: auto;
     opacity: 100%;
 }
 
+/* Link IMGS */
 .fGrid {
     padding-top: 1%;
     padding-bottom: 0%;
@@ -346,26 +401,28 @@ footer img {
 }
 
 
-
+/* for Schooling img -grid text */
 .extraInfo {
     display: block;
     text-align: center;
     width: 75%;
     padding-left: 20%;
+    font-size: 1.3vw;
 }
 
+/* extra spacing  */
 .spa {
     padding-left: 20%;
     padding-right: 20%;
 
 }
 
-
+/* qoute */
 .begin {
     display: flex;
 
 
-    width: 100%;
+    width: 99.5%;
     border-style: double;
     border-width: 5px;
     border-color: rgb(12, 23, 73);
@@ -373,6 +430,7 @@ footer img {
 
 }
 
+/* jeadersecion */
 header {
     display: block;
     margin-bottom: 2%;
@@ -380,11 +438,12 @@ header {
     padding-bottom: 1%;
 
     background-color: #697c7a;
-    border-style:double;
+    border-style: double;
     border-width: 5px;
     border-color: rgb(8, 46, 71);
 }
 
+/* main but click*/
 .butclick {
     height: 100%;
     width: 100%;
@@ -423,10 +482,11 @@ header {
     color: blue;
 }
 
+/* alt grid 2*/
 .jake {
     display: none;
     font-size: 2vw;
-    border-style:double;
+    border-style: double;
     border-width: 5px;
     border-color: rgb(33, 44, 51);
 }
@@ -482,7 +542,7 @@ header {
         margin-top: 3%;
         padding-top: 10%;
         display: block;
-        width: 100%;
+        width: 99.5%;
         height: 20%;
         background: #697c7a;
         text-align: center;
@@ -492,8 +552,9 @@ header {
     .selfs {
         width: 20%;
         height: auto;
-      
+
     }
+
 
     .blocks_text {
         font-size: 2.5vw;
@@ -524,7 +585,7 @@ header {
 
         display: block;
         font-size: 2vw;
-        border-style:double;
+        border-style: double;
         border-width: 5px;
         border-color: rgb(33, 44, 51);
     }
@@ -545,7 +606,7 @@ header {
         background: #697c7a;
         text-align: center;
         font-size: 3vw;
-        border-style:double;
+        border-style: double;
         border-width: 5px;
         border-color: rgb(33, 44, 51);
     }
@@ -571,4 +632,13 @@ header {
         padding-right: 30%;
         grid-template-columns: 30% 80% 40%;
     }
+
+    .extraInfo {
+        display: block;
+        text-align: center;
+        width: 98%;
+        padding-left: 20%;
+        font-size: 2vw;
+    }
+
 }
