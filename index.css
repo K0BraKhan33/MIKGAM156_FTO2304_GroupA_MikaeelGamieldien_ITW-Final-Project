@@ -10,6 +10,10 @@ body {
 }
 
 /* LOGO */
+
+.conlinlk {
+    display: block;
+}
 .selfs {
     width: 7%;
     height: auto;
@@ -40,9 +44,7 @@ body {
 
 }
 /*logo change when hover*/
-.conlinlk {
-    display: block;
-}
+
 
 .conlinlk:hover .selfs {
     display: none;
