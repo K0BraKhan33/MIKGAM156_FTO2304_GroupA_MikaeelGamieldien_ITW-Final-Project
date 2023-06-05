@@ -422,14 +422,10 @@ footer img {
 /* qoute */
 .begin {
     display: flex;
-
-
     width: 99.5%;
     border-style: double;
     border-width: 5px;
     border-color: rgb(12, 23, 73);
-
-
 }
 
 /* jeadersecion */
